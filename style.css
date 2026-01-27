@@ -10,6 +10,8 @@ body {
 
 /* Header */
 #header {
+  wight: 700px;
+  margin: 20px auto 0;
   padding: 20px 0;
   background-color: lightblue;
   border: 2px solid steelblue;
@@ -42,6 +44,7 @@ body {
 }
 
 #navigation_menu a {
+  font-size: 14px;
   text-decoration: none;
   color: black;
 }
@@ -73,7 +76,7 @@ body {
 }
 
 .gallery img {
-  width: 30%;
+  width: 32%;
   margin: 5px;
   border: 2px solid black;
   background-color: white;
@@ -85,6 +88,9 @@ body {
 .media {
   background-color: whitesmoke;
   border: 2px solid gray;
+}
+.media video {
+  width: 100%;
 }
 
 
