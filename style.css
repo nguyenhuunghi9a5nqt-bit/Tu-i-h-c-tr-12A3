@@ -15,7 +15,7 @@ body {
 /* HEADER */
 #header {
   width: 100%;
-  margin: 0;
+  margin: auto;
   padding: 16px 0;
   background-color: lightblue;
   border-bottom: 2px solid steelblue;
@@ -24,7 +24,7 @@ body {
 
 #banner_text {
   width: 92%;      /* dùng phần trăm để không cố định quá rộng */
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
