@@ -3,7 +3,7 @@
 /* BODY */
 body {
   font-family: Arial, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   color: black;
   background-color: lightgray;
   margin: 0;
@@ -28,19 +28,27 @@ body {
   text-align: center;
 }
 
-.header h1,
-.haeder p {
+.header h1 {
   margin: 5px 0;
-  font-size: 30px;
+  font-size: 32px;
+}
+.haeder p {
+  margin: 0;
+  font-size: 18px;
 }
 
 /* NAVIGATION */
-#navigation_menu {
-  width: 100%;
-  background-color: white;
-  border-bottom: 1px solid gray;
-  padding: 8px 0;
+.navigation_menu {
+  background-color: lightgray;
+  padding: 10px 0;
   text-align: center;
+  font-size: 18px;
+}
+.navigation_menu a {
+  margin: 0 8px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* CONTENT */
@@ -134,7 +142,7 @@ p {
   margin: 0;
   padding: 14px 0;
   background-color: white;
-  border: 1px solid gray;
+  border: none;
   text-align: center;
   font-size: 16px;
   color: black;
