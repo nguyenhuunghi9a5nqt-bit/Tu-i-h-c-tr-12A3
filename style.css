@@ -1,46 +1,47 @@
-/* BODY */
+/* ===== BODY ===== */
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   background-color: lightgray;
   margin: 0;
   padding: 0;
+  line-height: 1.8;
 }
 
-/* HEADER */
+/* ===== HEADER ===== */
 #header {
   width: 100%;
   margin: 0;
-  padding: 20px 10px;
+  padding: 18px 0;
   background-color: lightblue;
   border-bottom: 2px solid steelblue;
   text-align: center;
 }
 
 #banner_text {
-  width: 700px;
+  width: 760px;
   margin: auto;
-  text-align: center;
 }
 
 #header h1 {
-  margin: 10px 0;
-  font-size: 32px;
+  margin: 6px 0;
+  font-size: 30px;
 }
 
 .slogan {
-  margin-top: 8px;
-  font-size: 16px;
+  margin-top: 6px;
+  font-size: 15px;
+  color: black;
 }
 
-/* NAVIGATION */
+/* ===== NAVIGATION ===== */
 #navigation_menu {
   width: 100%;
-  margin: 0;
-  padding: 8px 0;
-  background-color: lightgray;
+  background-color: white;
   border-bottom: 1px solid gray;
+  padding: 8px 0;
+  text-align: center;
 }
 
 #navigation_menu table {
@@ -48,64 +49,77 @@ body {
 }
 
 #navigation_menu a {
-  font-size: 15px;
-  text-decoration: none;
+  font-size: 14px;
   color: black;
-  margin: 0 8px;
+  text-decoration: none;
   display: inline-block;
+  margin: 0 6px;
+  padding: 4px 8px;
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
 }
 
-/* CONTENT */
+/* ===== CONTENT ===== */
 #content {
-  width: 100%;
-  margin: 20px auto;
-  padding: 15px;
+  width: 92%;
+  margin: 18px auto;
+  padding: 18px;
   background-color: white;
   border: 2px solid gray;
 }
 
-/* TITLE */
+/* ===== TITLE ===== */
 .title {
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   background-color: lightyellow;
   border: 1px solid goldenrod;
+  font-weight: bold;
 }
 
-/* GALLERY */
+/* ===== TEXT ===== */
+p {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  color: black;
+  text-align: justify;
+}
+
+/* ===== GALLERY ===== */
 .gallery {
-  background-color: white;
   border: 2px solid gray;
-  padding: 10px;
-  margin-bottom: 20px;
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 18px;
   text-align: center;
 }
 
 .gallery img {
-  width: 90%;
-  margin: 8px 0;
+  width: 30%;
+  margin: 6px;
   border: 2px solid black;
+  display: inline-block;
 }
 
-/* MEDIA */
+/* ===== MEDIA ===== */
 .media {
-  background-color: whitesmoke;
   border: 2px solid gray;
-  padding: 10px;
-  margin-bottom: 20px;
+  background-color: whitesmoke;
+  padding: 12px;
+  margin-bottom: 18px;
 }
 
-.media video,
-.media audio {
+.media audio,
+.media video {
   width: 100%;
   display: block;
 }
 
-/* COMMENT */
+/* ===== COMMENT ===== */
 .comment-form {
+  border: 2px solid gray;
   background-color: lightgray;
-  border: 2px solid dimgray;
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 20px;
 }
 
@@ -115,21 +129,17 @@ body {
   padding: 8px;
   margin-top: 6px;
   border: 1px solid gray;
+  display: block;
 }
 
-/* FOOTER */
+/* ===== FOOTER ===== */
 #footer {
   width: 100%;
   margin: 0;
-  padding: 15px 0;
+  padding: 14px 0;
   background-color: white;
   border-top: 1px solid gray;
   text-align: center;
   font-size: 14px;
-}
-
-/* PARAGRAPH */
-p {
-  margin-bottom: 12px;
-  line-height: 1.8;
+  color: black;
 }
