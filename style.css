@@ -1,124 +1,62 @@
-/* ===== BODY ===== */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  color: black;
-  background-color: lightgray;
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin: 0;
+    padding: 0;
 }
 
-/* ===== HEADER ===== */
-#header {
-  background-color: lightblue;
-  padding: 20px 0;
-  text-align: center;
+/* khung chung */
+.container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#header h1 {
-  margin: 0;
-  font-size: 32px;
+/* tiêu đề các mục */
+.section-title {
+    background-color: lemonchiffon;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.slogan {
-  margin-top: 8px;
-  font-size: 18px;
-  text-align: center;
-}
-
-/* ===== NAVIGATION ===== */
-#navigation_menu {
-  background-color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-#navigation_menu a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  margin: 0 6px;
-}
-
-/* ===== CONTENT ===== */
-#content {
-  width: 90%;
-  margin: 20px auto;
-  background-color: white;
-  padding: 20px;
-}
-
-/* ===== TITLE ===== */
-.title {
-  background-color: lightyellow;
-  padding: 10px;
-  margin-bottom: 12px;
-  font-weight: bold;
-}
-
-/* ===== TEXT ===== */
+/* đoạn nội dung */
 p {
-  margin-bottom: 12px;
-  text-align: justify;
+    text-align: justify;
 }
 
-/* ===== ARTICLE ===== */
-.author {
-  font-size: 16px;
-  margin-bottom: 8px;
+/* góc ảnh */
+.image-box {
+    text-align: center;
 }
 
-/* ===== GALLERY ===== */
-.gallery {
-  text-align: center;
-  margin-bottom: 20px;
+.image-box img {
+    width: 30%;
+    margin: 5px;
 }
 
-.gallery img {
-  width: 30%;
-  margin: 6px;
-  display: inline-block;
+/* audio + video */
+audio,
+video {
+    width: 100%;
 }
 
-/* ===== MEDIA ===== */
-.media {
-  margin-bottom: 20px;
+/* form bình luận */
+.comment-box input,
+.comment-box textarea,
+.comment-box button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 6px;
 }
 
-.media audio,
-.media video {
-  width: 100%;
-  display: block;
-}
-
-/* ===== COMMENT FORM ===== */
-.comment-form {
-  background-color: lightgray;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-.comment-form label {
-  display: block;
-  margin-top: 10px;
-}
-
-.comment-form input[type="text"],
-.comment-form textarea {
-  width: 95%;
-  padding: 6px;
-  margin-top: 5px;
-}
-
-.comment-form table {
-  margin: 10px auto;
-}
-
-/* ===== FOOTER ===== */
-#footer {
-  background-color: white;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 16px;
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightyellow;
 }
