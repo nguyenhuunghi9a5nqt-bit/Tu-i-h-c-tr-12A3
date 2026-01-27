@@ -1,3 +1,4 @@
+/* STYLE CHUẨN (chỉ thuộc tính đã học) */
 body {
   line-height: 1.6;
   font-family: Arial, sans-serif;
@@ -10,49 +11,50 @@ body {
 
 /* Header */
 #header {
-  wight: 700px;
+  width: 95%;
   margin: 20px auto 0;
-  padding: 20px 0;
+  padding: 18px 0;
   background-color: lightblue;
   border: 2px solid steelblue;
-  text-align: center;
 }
 
 #banner_text {
+  width: 700px;   /* khung chữ banner cố định để chữ không dài quá */
   margin: auto;
 }
 
 #header h1 {
   margin: 10px 0;
+  font-size: 28px;
 }
 
 .slogan {
   margin-top: 8px;
+  font-size: 16px;
 }
 
-
+/* Navigation */
 #navigation_menu {
+  width: 95%;
+  margin: 10px auto;
+  padding: 8px 0;
   background-color: lightgray;
   border: 1px solid gray;
-  margin-bottom: 20px;
-  padding: 10px 0;
 }
-
-
 #navigation_menu table {
   margin: auto;
 }
-
 #navigation_menu a {
   font-size: 14px;
   text-decoration: none;
   color: black;
+  display: inline-block;
+  margin: 0 8px;
 }
-
 
 /* Content */
 #content {
-  width: 700px;
+  width: 95%;
   margin: 20px auto;
   padding: 20px;
   background-color: white;
@@ -68,47 +70,59 @@ body {
   color: black;
 }
 
-
 /* Gallery */
 .gallery {
   background-color: white;
   border: 2px solid gray;
+  padding: 12px;
+  text-align: center; /*căn chữ trong khung */
 }
-
 .gallery img {
-  width: 32%;
+  width: 30%;
   margin: 5px;
   border: 2px solid black;
   background-color: white;
   display: inline-block;
 }
 
-
 /* Media */
 .media {
   background-color: whitesmoke;
   border: 2px solid gray;
+  padding: 12px;
 }
-.media video {
+.media video,
+.media audio {
   width: 100%;
+  height: auto;
+  display: block;
 }
-
 
 /* Comment */
 .comment-form {
   background-color: lightgray;
   border: 2px solid dimgray;
+  padding: 12px;
+}
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  border: 1px solid gray;
 }
 
 /* Footer */
 #footer {
-  width: 700px;
+  width: 95%;
   margin: 20px auto;
   padding: 15px;
   background-color: white;
   border: 1px solid gray;
   font-size: 14px;
 }
+
+/* Khoảng cách đoạn và khối */
 p {
   margin-bottom: 12px;
   line-height: 1.9;
@@ -117,5 +131,5 @@ p {
 .media,
 .comment-form {
   margin-bottom: 20px;
-  padding: 15px;
+  padding: 8px;
 }
