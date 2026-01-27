@@ -30,17 +30,20 @@ body {
 
 
 .navigation_menu {
-    background-color: khaki;
+    background-color: lightgray;
     text-align: center;
     padding: 12px 0;
 }
 
 .navigation_menu a {
+    display: inline-block;
     text-decoration: none;
     color: black;
-    margin: 0 12px;
+    margin: 5px 8px;
+    padding: 6px 10px;
     font-weight: bold;
 }
+
 
 .navigation_menu a:hover {
     color: brown;
@@ -52,12 +55,12 @@ body {
 }
 
 .title {
-    background-color: lemonchiffon;
+    background-color: lightyellow;
     text-align: center;
     font-weight: bold;
     padding: 12px;
-    margin-top: 25px;
-    font-size: 18px;
+    margin-top: 22px;
+    font-size: 22px;
 }
 
 p {
