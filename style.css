@@ -1,110 +1,124 @@
-/* ===== CƠ BẢN ===== */
+/* ===== BODY ===== */
 body {
   font-family: Arial, sans-serif;
-  font-size: 17px;
-  background-color: #f2f2f2;
+  font-size: 18px;
+  color: black;
+  background-color: lightgray;
   margin: 0;
-  line-height: 1.7;
+  padding: 0;
+  line-height: 1.8;
 }
 
 /* ===== HEADER ===== */
 #header {
-  background-color: #cfe8ef;   /* xanh nhạt dịu */
+  background-color: lightblue;
+  padding: 20px 0;
   text-align: center;
-  padding: 20px 10px;
 }
 
 #header h1 {
   margin: 0;
+  font-size: 32px;
 }
 
-#header p {
-  margin: 6px 0 0;
-}
-
-/* ===== MENU ===== */
-.navigation_menu {
+.slogan {
+  margin-top: 8px;
+  font-size: 18px;
   text-align: center;
-  background-color: #eaeaea;
-  padding: 10px;
 }
 
-.navigation_menu a {
+/* ===== NAVIGATION ===== */
+#navigation_menu {
+  background-color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#navigation_menu a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
   margin: 0 6px;
 }
 
 /* ===== CONTENT ===== */
 #content {
-  max-width: 900px;        /* căn đẹp trên máy tính */
-  width: 94%;              /* gọn trên điện thoại */
+  width: 90%;
   margin: 20px auto;
   background-color: white;
-  padding: 18px;
+  padding: 20px;
 }
 
-/* ===== TIÊU ĐỀ ===== */
+/* ===== TITLE ===== */
 .title {
-  background-color: #fff6cc;   /* vàng nhạt */
+  background-color: lightyellow;
   padding: 10px;
-  margin: 20px 0 10px;
+  margin-bottom: 12px;
   font-weight: bold;
 }
 
-/* ===== CHỮ ===== */
+/* ===== TEXT ===== */
 p {
-  text-align: justify;
   margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* ===== ARTICLE ===== */
+.author {
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 /* ===== GALLERY ===== */
 .gallery {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .gallery img {
   width: 30%;
-  margin: 5px;
-  border: 2px solid #333;
+  margin: 6px;
+  display: inline-block;
 }
 
 /* ===== MEDIA ===== */
+.media {
+  margin-bottom: 20px;
+}
+
 .media audio,
 .media video {
   width: 100%;
-  margin-top: 8px;
+  display: block;
 }
 
-/* ===== COMMENT ===== */
+/* ===== COMMENT FORM ===== */
 .comment-form {
-  background-color: #eaeaea;
+  background-color: lightgray;
   padding: 15px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
-.comment-form input,
+.comment-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.comment-form input[type="text"],
 .comment-form textarea {
   width: 95%;
-  margin: 8px 0;
   padding: 6px;
+  margin-top: 5px;
+}
+
+.comment-form table {
+  margin: 10px auto;
 }
 
 /* ===== FOOTER ===== */
 #footer {
-  text-align: center;
-  padding: 15px;
   background-color: white;
-  font-size: 15px;
-}
-
-/* ===== MOBILE FIX ===== */
-@media (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-
-  .gallery img {
-    width: 90%;   /* ảnh xếp dọc trên điện thoại */
-  }
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
