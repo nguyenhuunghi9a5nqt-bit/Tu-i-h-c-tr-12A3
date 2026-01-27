@@ -114,7 +114,7 @@ p {
 /* COMMENT */
 .comment-form {
   width: 92%;         /* nhỏ hơn content để tránh tràn */
-  margin: 15px auto;
+  margin: 15px;
   padding: 12px;
   background-color: lightgray;
   border: 1px solid gray;
@@ -142,17 +142,9 @@ p {
   margin: 0;
   padding: 14px 0;
   background-color: white;
-  border: none;
   text-align: center;
   font-size: 16px;
   color: black;
-}
-
-/* Footer table (nếu có bảng trong footer) */
-#footer table {
-  width: 92%;
-  margin: 6px auto;
-  border-collapse: collapse;
 }
 
 /* Khoảng cách cuối */
