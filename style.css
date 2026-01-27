@@ -16,7 +16,7 @@ body {
 #header {
   width: 100%;
   margin: auto;
-  padding: 16px 0;
+  padding: 20px 0;
   background-color: lightblue;
   border-bottom: 2px solid steelblue;
   text-align: center;
@@ -28,8 +28,9 @@ body {
   text-align: center;
 }
 
-#header h1 {
-  margin: 6px 0;
+.header h1,
+.haeder p {
+  margin: 5px 0;
   font-size: 30px;
 }
 
@@ -104,17 +105,25 @@ p {
 
 /* COMMENT */
 .comment-form {
-  width: 96%;         /* nhỏ hơn content để tránh tràn */
-  margin: 14px auto;
-  padding: 10px;
+  width: 92%;         /* nhỏ hơn content để tránh tràn */
+  margin: 15px auto;
+  padding: 12px;
   background-color: lightgray;
   border: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+}
+.comment-form input[type="submit"],
+.comment-form input[type="reset"], {
+  padding: 6px 14px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 .comment-form input[type="text"],
 .comment-form textarea {
-  width: 94%;         /* không 100% để tránh tràn vì padding/border */
-  padding: 6px;
-  margin-top: 6px;
+  width: 92%;         /* không 100% để tránh tràn vì padding/border */
+  padding: 8px;
+  margin-top: 8px;
   border: 1px solid gray;
   display: block;
 }
@@ -123,11 +132,11 @@ p {
 #footer {
   width: 100%;
   margin: 0;
-  padding: 12px 0;
+  padding: 14px 0;
   background-color: white;
   border: 1px solid gray;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
