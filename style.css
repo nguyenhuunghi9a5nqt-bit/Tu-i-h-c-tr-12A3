@@ -1,4 +1,6 @@
-/* ===== BODY ===== */
+/* ===== FINAL CSS (dùng chỉ thuộc tính cơ bản và màu tiếng Anh) ===== */
+
+/* BODY */
 body {
   font-family: Arial, sans-serif;
   font-size: 17px;
@@ -9,7 +11,7 @@ body {
   line-height: 1.8;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 #header {
   width: 100%;
   margin: 0;
@@ -21,12 +23,14 @@ body {
 
 #banner_text {
   width: 760px;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #header h1 {
   margin: 6px 0;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .slogan {
@@ -35,7 +39,7 @@ body {
   color: black;
 }
 
-/* ===== NAVIGATION ===== */
+/* NAVIGATION */
 #navigation_menu {
   width: 100%;
   background-color: white;
@@ -45,7 +49,7 @@ body {
 }
 
 #navigation_menu table {
-  margin: auto;
+  margin: 0 auto;
 }
 
 #navigation_menu a {
@@ -59,7 +63,7 @@ body {
   background-color: whitesmoke;
 }
 
-/* ===== CONTENT ===== */
+/* CONTENT */
 #content {
   width: 92%;
   margin: 18px auto;
@@ -68,7 +72,7 @@ body {
   border: 2px solid gray;
 }
 
-/* ===== TITLE ===== */
+/* TITLE */
 .title {
   padding: 10px;
   margin-bottom: 14px;
@@ -77,7 +81,7 @@ body {
   font-weight: bold;
 }
 
-/* ===== TEXT ===== */
+/* TEXT */
 p {
   margin-bottom: 12px;
   line-height: 1.8;
@@ -85,7 +89,7 @@ p {
   text-align: justify;
 }
 
-/* ===== GALLERY ===== */
+/* GALLERY */
 .gallery {
   border: 2px solid gray;
   background-color: white;
@@ -99,9 +103,14 @@ p {
   margin: 6px;
   border: 2px solid black;
   display: inline-block;
+  vertical-align: top;
 }
 
-/* ===== MEDIA ===== */
+.gallery img:hover {
+  border-color: steelblue;
+}
+
+/* MEDIA */
 .media {
   border: 2px solid gray;
   background-color: whitesmoke;
@@ -115,7 +124,7 @@ p {
   display: block;
 }
 
-/* ===== COMMENT ===== */
+/* COMMENT FORM */
 .comment-form {
   border: 2px solid gray;
   background-color: lightgray;
@@ -132,13 +141,14 @@ p {
   display: block;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
+/* dùng 'border' thay cho 'border-top' để đơn giản (mà bạn đã học) */
 #footer {
   width: 100%;
   margin: 0;
   padding: 14px 0;
   background-color: white;
-  border-top: 1px solid gray;
+  border: 1px solid gray;   /* đây là dòng đã đổi: toàn viền đơn giản */
   text-align: center;
   font-size: 14px;
   color: black;
