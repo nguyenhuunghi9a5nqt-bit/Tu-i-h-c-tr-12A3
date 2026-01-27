@@ -1,66 +1,74 @@
-/* ===== FIXED CSS (thay thế toàn bộ style.css) ===== */
+/* ===== STYLE HAI HOÀ (chỉ thuộc tính đã học) ===== */
 
 /* BODY */
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 18px;         /* chữ to hơn cho điện thoại */
   color: black;
   background-color: lightgray;
   margin: 0;
   padding: 0;
   line-height: 1.8;
-  overflow-x: hidden; /* ẩn scroll ngang nếu có phần tử hơi tràn */
+  overflow-x: hidden;
 }
 
 /* HEADER */
 #header {
   width: 100%;
-  margin: auto;
-  padding: 20px 0;
-  background-color: lightblue;
-  border-bottom: 2px solid steelblue;
-  text-align: center;
-}
-
-#banner_text {
-  width: 92%;      /* dùng phần trăm để không cố định quá rộng */
-  margin: auto;
-  text-align: center;
-}
-
-.header h1 {
-  margin: 5px 0;
-  font-size: 32px;
-}
-.haeder p {
   margin: 0;
-  font-size: 18px;
+  padding: 18px 0;
+  background-color: lightblue;    /* nền header */
+  border-bottom: 2px solid steelblue; /* nhấn nhá nhẹ */
+  text-align: center;
+}
+
+.banner_text {
+  width: 92%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 4px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#header .slogan {
+  margin: 4px 0;
+  font-size: 16px;
 }
 
 /* NAVIGATION */
-.navigation_menu {
-  background-color: lightgray;
-  padding: 10px 0;
+#navigation_menu {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
   text-align: center;
-  font-size: 18px;
 }
-.navigation_menu a {
+
+#navigation_menu a {
+  display: inline-block;
   margin: 0 8px;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 18px;
+  padding: 4px 8px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
 }
 
 /* CONTENT */
 #content {
-  width: 94%;      /* hơi nhỏ hơn 100% để tránh tràn do border/padding */
+  width: 94%;
   margin: 18px auto;
   padding: 16px;
   background-color: white;
-  border: 1px solid gray; /* mỏng lại cho nhẹ */
+  border: 1px solid lightgray; /* nhẹ nhàng */
 }
 
-/* TITLE */
+/* TITLE BOX */
 .title {
   padding: 10px;
   margin-bottom: 12px;
@@ -71,8 +79,7 @@ body {
 
 /* TEXT */
 p {
-  margin: auto;
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
   line-height: 1.8;
   color: black;
   text-align: justify;
@@ -81,73 +88,88 @@ p {
 /* GALLERY */
 .gallery {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   background-color: white;
   padding: 10px;
   margin-bottom: 16px;
   text-align: center;
 }
 
-/* 3 ảnh / hàng trên máy, nhưng tổng không tràn */
 .gallery img {
-  width: 28%;        /* giảm chút để còn margin + border */
+  width: 28%;
   margin: 6px;
-  border: 2px solid black;
+  border: 1px solid gray;
   display: inline-block;
-  vertical-align: top;
 }
 
 /* MEDIA */
 .media {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   background-color: whitesmoke;
   padding: 10px;
   margin-bottom: 16px;
 }
+
 .media audio,
 .media video {
   width: 100%;
   display: block;
 }
 
-/* COMMENT */
+/* COMMENT FORM */
 .comment-form {
-  width: 92%;         /* nhỏ hơn content để tránh tràn */
-  margin: 15px;
+  width: 92%;
+  margin: 16px auto;
   padding: 12px;
   background-color: lightgray;
   border: 1px solid gray;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
-.comment-form input[type="submit"],
-.comment-form input[type="reset"], {
-  padding: 6px 14px;
+
+.comment-form label {
+  display: block;
+  margin-top: 8px;
   font-size: 16px;
-  margin-top: 10px;
 }
+
 .comment-form input[type="text"],
 .comment-form textarea {
-  width: 92%;         /* không 100% để tránh tràn vì padding/border */
+  width: 92%;
   padding: 8px;
-  margin-top: 8px;
+  margin-top: 6px;
   border: 1px solid gray;
   display: block;
+  font-size: 16px;
+}
+
+/* nút Gửi / Hủy căn giữa, gọn */
+.comment-form .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.comment-form input[type="submit"],
+.comment-form input[type="reset"] {
+  padding: 6px 14px;
+  font-size: 16px;
+  margin: 0 6px;
+  cursor: pointer;
 }
 
 /* FOOTER */
 #footer {
   width: 100%;
-  margin: 0;
-  padding: 14px 0;
+  margin: 18px 0 30px 0;
+  padding: 12px 10px;
   background-color: white;
+  border: 1px solid lightgray;
   text-align: center;
   font-size: 16px;
   color: black;
 }
 
-/* Khoảng cách cuối */
+/* nhẹ khoảng cách cuối */
 .gallery,
 .media,
 .comment-form {
