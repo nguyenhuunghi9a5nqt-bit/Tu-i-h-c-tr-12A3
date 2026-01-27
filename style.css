@@ -1,177 +1,71 @@
-/* ===== STYLE HAI HOÀ (chỉ thuộc tính đã học) ===== */
-
-/* BODY */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 18px;         /* chữ to hơn cho điện thoại */
-  color: black;
-  background-color: lightgray;
   margin: 0;
-  padding: 0;
-  line-height: 1.8;
-  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
 }
 
 /* HEADER */
 #header {
-  width: 100%;
-  margin: 0;
-  padding: 18px 0;
-  background-color: lightblue;    /* nền header */
-  border-bottom: 2px solid steelblue; /* nhấn nhá nhẹ */
+  background-color: lightblue;
   text-align: center;
+  padding: 20px;
 }
 
-.banner_text {
-  width: 92%;
-  margin: 0 auto;
-  text-align: center;
+.slogan {
+  font-style: italic;
 }
 
-#header h1 {
-  margin: 4px 0;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-#header .slogan {
-  margin: 4px 0;
-  font-size: 16px;
-}
-
-/* NAVIGATION */
+/* MENU */
 #navigation_menu {
-  width: 100%;
-  background-color: white;
-  border-bottom: 1px solid gray;
-  padding: 8px 0;
+  background-color: steelblue;
   text-align: center;
+  padding: 10px;
 }
 
 #navigation_menu a {
-  display: inline-block;
-  margin: 0 8px;
-  padding: 4px 8px;
-  color: black;
+  color: white;
   text-decoration: none;
-  font-size: 16px;
-  background-color: whitesmoke;
-  border: 1px solid lightgray;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
 /* CONTENT */
 #content {
-  width: 94%;
-  margin: 18px auto;
-  padding: 16px;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* BOX CHUNG */
+.box {
   background-color: white;
-  border: 1px solid lightgray; /* nhẹ nhàng */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid lightblue;
 }
 
-/* TITLE BOX */
-.title {
-  padding: 10px;
-  margin-bottom: 12px;
-  background-color: lightyellow;
-  border: 1px solid goldenrod;
-  font-weight: bold;
-}
-
-/* TEXT */
-p {
-  margin: 0 0 12px 0;
-  line-height: 1.8;
-  color: black;
-  text-align: justify;
-}
-
-/* GALLERY */
-.gallery {
-  width: 100%;
-  border: 1px solid lightgray;
-  background-color: white;
-  padding: 10px;
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.gallery img {
-  width: 28%;
-  margin: 6px;
-  border: 1px solid gray;
-  display: inline-block;
-}
-
-/* MEDIA */
-.media {
-  width: 100%;
-  border: 1px solid lightgray;
-  background-color: whitesmoke;
-  padding: 10px;
-  margin-bottom: 16px;
-}
-
-.media audio,
-.media video {
-  width: 100%;
+/* IMAGE */
+img {
+  max-width: 100%;
   display: block;
+  margin: auto;
 }
 
-/* COMMENT FORM */
-.comment-form {
-  width: 92%;
-  margin: 16px auto;
-  padding: 12px;
-  background-color: lightgray;
-  border: 1px solid gray;
-  font-size: 18px;
-  text-align: left;
+/* AUDIO & VIDEO */
+audio, video {
+  width: 100%;
 }
 
-.comment-form label {
-  display: block;
-  margin-top: 8px;
-  font-size: 16px;
-}
-
-.comment-form input[type="text"],
-.comment-form textarea {
-  width: 92%;
-  padding: 8px;
-  margin-top: 6px;
-  border: 1px solid gray;
-  display: block;
-  font-size: 16px;
-}
-
-/* nút Gửi / Hủy căn giữa, gọn */
-.comment-form .buttons {
-  text-align: center;
-  margin-top: 10px;
-}
-.comment-form input[type="submit"],
-.comment-form input[type="reset"] {
-  padding: 6px 14px;
-  font-size: 16px;
-  margin: 0 6px;
-  cursor: pointer;
+/* FORM */
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 /* FOOTER */
 #footer {
-  width: 100%;
-  margin: 18px 0 30px 0;
-  padding: 12px 10px;
-  background-color: white;
-  border: 1px solid lightgray;
+  background-color: lightgray;
   text-align: center;
-  font-size: 16px;
-  color: black;
-}
-
-/* nhẹ khoảng cách cuối */
-.gallery,
-.media,
-.comment-form {
-  margin-bottom: 18px;
+  padding: 15px;
 }
