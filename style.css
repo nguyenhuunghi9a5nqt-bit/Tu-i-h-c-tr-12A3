@@ -1,20 +1,31 @@
+/* ===== CƠ BẢN ===== */
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
-  background: lightgray;
+  font-size: 17px;
+  background-color: #f2f2f2;
   margin: 0;
   line-height: 1.7;
 }
 
+/* ===== HEADER ===== */
 #header {
-  background: lightblue;
+  background-color: #cfe8ef;   /* xanh nhạt dịu */
   text-align: center;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
+#header h1 {
+  margin: 0;
+}
+
+#header p {
+  margin: 6px 0 0;
+}
+
+/* ===== MENU ===== */
 .navigation_menu {
   text-align: center;
-  background: #eee;
+  background-color: #eaeaea;
   padding: 10px;
 }
 
@@ -24,54 +35,76 @@ body {
   margin: 0 6px;
 }
 
+/* ===== CONTENT ===== */
 #content {
-  width: 92%;
+  max-width: 900px;        /* căn đẹp trên máy tính */
+  width: 94%;              /* gọn trên điện thoại */
   margin: 20px auto;
-  background: white;
-  padding: 20px;
+  background-color: white;
+  padding: 18px;
 }
 
+/* ===== TIÊU ĐỀ ===== */
 .title {
-  background: lightyellow;
+  background-color: #fff6cc;   /* vàng nhạt */
   padding: 10px;
-  margin-top: 20px;
+  margin: 20px 0 10px;
   font-weight: bold;
 }
 
+/* ===== CHỮ ===== */
 p {
   text-align: justify;
+  margin-bottom: 12px;
 }
 
+/* ===== GALLERY ===== */
 .gallery {
   text-align: center;
 }
 
 .gallery img {
-  width: 28%;
-  margin: 6px;
-  border: 2px solid black;
+  width: 30%;
+  margin: 5px;
+  border: 2px solid #333;
 }
 
+/* ===== MEDIA ===== */
 .media audio,
 .media video {
   width: 100%;
+  margin-top: 8px;
 }
 
+/* ===== COMMENT ===== */
 .comment-form {
-  background: #eee;
+  background-color: #eaeaea;
   padding: 15px;
   text-align: center;
 }
 
 .comment-form input,
 .comment-form textarea {
-  width: 90%;
+  width: 95%;
   margin: 8px 0;
   padding: 6px;
 }
 
+/* ===== FOOTER ===== */
 #footer {
   text-align: center;
   padding: 15px;
-  background: white;
+  background-color: white;
+  font-size: 15px;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .gallery img {
+    width: 90%;   /* ảnh xếp dọc trên điện thoại */
+  }
 }
