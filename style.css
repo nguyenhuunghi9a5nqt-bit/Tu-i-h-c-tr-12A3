@@ -35,7 +35,7 @@ body {
 
 /* Navigation */
 #navigation_menu {
-  width: 95%;
+  width: 80%;
   margin: 10px auto;
   padding: 8px 0;
   background-color: lightgray;
@@ -54,7 +54,7 @@ body {
 
 /* Content */
 #content {
-  width: 95%;
+  width: 80%;
   margin: 20px auto;
   padding: 20px;
   background-color: white;
@@ -114,7 +114,7 @@ body {
 
 /* Footer */
 #footer {
-  width: 95%;
+  width: 80%;
   margin: 20px auto;
   padding: 15px;
   background-color: white;
