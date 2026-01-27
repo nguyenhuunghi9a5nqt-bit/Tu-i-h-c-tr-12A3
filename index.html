@@ -1,80 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
   <meta charset="utf-8">
-  <title>Báo tường lớp 12A3</title>
+  <title>Báo tường - Nhóm 4</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <div id="header">
-    <h1>BÁO TƯỜNG LỚP 12A3</h1>
-    <p class="slogan">Tuổi học trò – Kỷ niệm không quên</p>
+<!-- HEADER -->
+<div id="header">
+  <h1>BÁO TƯỜNG LỚP 12A3</h1>
+  <p>Tuổi học trò - Kỷ niệm không quên</p>
+</div>
+
+<!-- MENU -->
+<div class="navigation_menu">
+  <a href="#gioithieu">Giới thiệu</a> |
+  <a href="#baiviet">Bài viết</a> |
+  <a href="#gocanh">Góc ảnh</a> |
+  <a href="#gocmedia">Âm nhạc & Video</a> |
+  <a href="#binhluan">Bình luận</a>
+</div>
+
+<!-- CONTENT -->
+<div id="content">
+
+  <h2 class="title" id="gioithieu">Bài giới thiệu</h2>
+  <p>
+    Chào mừng mọi người đến với báo tường của lớp.
+    <mark>Nội dung</mark> gồm bài viết, góc ảnh, góc âm nhạc và mục bình luận.
+  </p>
+
+  <h2 class="title" id="baiviet">Bài: Kỷ niệm cuối cấp</h2>
+  <p><strong>Tác giả:</strong> Nhóm 4</p>
+  <p>
+    Tuổi học trò là quãng thời gian đẹp đẽ và đáng nhớ nhất trong cuộc đời mỗi người.
+    Những kỷ niệm bên bạn bè và thầy cô sẽ mãi là hành trang quý giá.
+  </p>
+
+  <h2 class="title">Bài: Một ngày học ở trường</h2>
+  <p><strong>Tác giả:</strong> Nhóm 4</p>
+  <p>
+    Một ngày học bắt đầu từ những giờ học nghiêm túc đến những khoảnh khắc thư giãn
+    bên bạn bè, tạo nên tuổi học trò hồn nhiên và đáng nhớ.
+  </p>
+
+  <!-- GÓC ẢNH -->
+  <div class="gallery" id="gocanh">
+    <h3 class="title">Góc ảnh</h3>
+    <img src="anh_lop.jpg">
+    <img src="anh_sinh_hoat.jpg">
+    <img src="anh_ky_niem.jpg">
   </div>
 
-  <!-- MENU -->
-  <div id="navigation_menu">
-    <a href="#gioithieu">Giới thiệu</a>
-    <a href="#baiviet">Bài viết</a>
-    <a href="#gocanh">Góc ảnh</a>
-    <a href="#gocmedia">Âm nhạc & Video</a>
-    <a href="#binhluan">Bình luận</a>
+  <!-- ÂM NHẠC -->
+  <div class="media" id="gocmedia">
+    <h3 class="title">Góc âm nhạc</h3>
+    <audio controls src="tuoi_hoc_tro.mp3"></audio>
   </div>
 
-  <!-- CONTENT -->
-  <div id="content">
-
-    <div class="box" id="gioithieu">
-      <h2>Bài giới thiệu</h2>
-      <p>
-        Chào mừng mọi người đến với báo tường của lớp 12A3.
-        Đây là nơi lưu giữ những kỷ niệm đẹp của tuổi học trò.
-      </p>
-    </div>
-
-    <div class="box" id="baiviet">
-      <h2>Kỷ niệm cuối cấp</h2>
-      <p><strong>Tác giả:</strong> Nhóm 4</p>
-      <p>
-        Tuổi học trò là quãng thời gian đẹp đẽ và đáng nhớ nhất,
-        gắn liền với bạn bè, thầy cô và những kỷ niệm không thể quên.
-      </p>
-    </div>
-
-    <div class="box" id="gocanh">
-      <h2>Góc ảnh</h2>
-      <img src="anh_lop.jpg" alt="Ảnh lớp">
-    </div>
-
-    <div class="box" id="gocmedia">
-      <h2>Góc âm nhạc</h2>
-      <audio controls src="tuoi_hoc_tro.mp3"></audio>
-    </div>
-
-    <div class="box">
-      <h2>Góc video</h2>
-      <video controls src="ky_niem_lop_12a3.mp4"></video>
-    </div>
-
-    <div class="box" id="binhluan">
-      <h2>Góc bình luận</h2>
-      <form>
-        <label>Họ tên</label>
-        <input type="text">
-        <label>Nội dung</label>
-        <textarea></textarea>
-        <input type="submit" value="Gửi">
-      </form>
-    </div>
-
+  <!-- VIDEO -->
+  <div class="media">
+    <h3 class="title">Góc video</h3>
+    <video controls src="ky_niem_lop_12a3.mp4"></video>
   </div>
 
-  <!-- FOOTER -->
-  <div id="footer">
-    <p>Nhóm 4 – Lớp 12A3</p>
-    <p>Cập nhật: 27/01/2026</p>
+  <!-- BÌNH LUẬN -->
+  <div class="comment-form" id="binhluan">
+    <h3 class="title">Góc bình luận</h3>
+    <form>
+      <input type="text" placeholder="Họ tên">
+      <textarea placeholder="Nội dung bình luận"></textarea>
+      <br>
+      <input type="submit" value="Gửi">
+      <input type="reset" value="Hủy">
+    </form>
   </div>
+
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+  <p>Nhóm 4</p>
+  <p>Email: nguyenhuunghi025@gmail.com</p>
+  <p>Ngày cập nhật: 27/01/2026</p>
+</div>
 
 </body>
 </html>
