@@ -62,6 +62,7 @@ body {
 
 /* TEXT */
 p {
+  margin: auto;
   margin-bottom: 12px;
   line-height: 1.8;
   color: black;
