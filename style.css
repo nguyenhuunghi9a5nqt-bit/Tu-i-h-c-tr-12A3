@@ -111,8 +111,8 @@ p {
 }
 .comment-form input[type="text"],
 .comment-form textarea {
-  width: 96%;         /* không 100% để tránh tràn vì padding/border */
-  padding: 8px;
+  width: 94%;         /* không 100% để tránh tràn vì padding/border */
+  padding: 6px;
   margin-top: 6px;
   border: 1px solid gray;
   display: block;
