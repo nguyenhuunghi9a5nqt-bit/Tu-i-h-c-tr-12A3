@@ -12,9 +12,10 @@ body {
 #header {
   width: 100%;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px 10px;
   background-color: lightblue;
   border-bottom: 2px solid steelblue;
+  text-align: center;
 }
 
 #banner_text {
@@ -37,8 +38,8 @@ body {
 #navigation_menu {
   width: 100%;
   margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
+  padding: 8px 0;
+  background-color: lightgray;
   border-bottom: 1px solid gray;
 }
 
@@ -47,25 +48,25 @@ body {
 }
 
 #navigation_menu a {
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
   color: black;
-  margin: 0 10px;
+  margin: 0 8px;
   display: inline-block;
 }
 
 /* CONTENT */
 #content {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
-  padding: 20px;
+  padding: 15px;
   background-color: white;
   border: 2px solid gray;
 }
 
 /* TITLE */
 .title {
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 15px;
   background-color: lightyellow;
   border: 1px solid goldenrod;
@@ -81,8 +82,8 @@ body {
 }
 
 .gallery img {
-  width: 30%;
-  margin: 5px;
+  width: 90%;
+  margin: 8px 0;
   border: 2px solid black;
 }
 
@@ -111,7 +112,7 @@ body {
 .comment-form input[type="text"],
 .comment-form textarea {
   width: 100%;
-  padding: 6px;
+  padding: 8px;
   margin-top: 6px;
   border: 1px solid gray;
 }
@@ -130,5 +131,5 @@ body {
 /* PARAGRAPH */
 p {
   margin-bottom: 12px;
-  line-height: 1.9;
+  line-height: 1.8;
 }
