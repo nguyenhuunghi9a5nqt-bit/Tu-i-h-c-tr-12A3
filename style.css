@@ -44,7 +44,7 @@ body {
 
 /* Content */
 #content {
-  width: 900px;
+  width: 111100px;
   margin: 0 auto 10px;
   padding: 10px;
   background-color: white;
@@ -66,6 +66,8 @@ body {
 }
 
 .gallery img {
+  wight: 30%;
+  margin: 5px;
   border: 2px solid black;
   background-color: white;
 }
@@ -86,10 +88,19 @@ body {
 
 /* Footer */
 #footer {
-  width: 900px;
+  width: 111100px;
   margin: 0 auto;
   padding: 8px;
   background-color: white;
   border: 1px solid gray;
   font-size: 14px;
+}
+p {
+  line-height: 1.8;
+}
+.title,
+.gallery,
+.comment-form {
+  margin-bottom: 20px;
+  padding: 10px;
 }
