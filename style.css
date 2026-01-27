@@ -7,7 +7,6 @@ body {
     font-size: 16px;
 }
 
-
 #header {
     background-color: lightyellow;
     color: black;
@@ -17,6 +16,7 @@ body {
 
 #header h1 {
     margin: 0;
+    font-size: 30px;
 }
 
 #header p {
@@ -27,7 +27,6 @@ body {
     font-size: 20px;
     color: brown;
 }
-
 
 .navigation_menu {
     background-color: lightgray;
@@ -44,14 +43,13 @@ body {
     font-weight: bold;
 }
 
-
 .navigation_menu a:hover {
-    color: brown;
+    color: blue;
     text-decoration: underline;
 }
 
 #content {
-    padding: 18px;
+    padding: 15px;
 }
 
 .title {
@@ -65,22 +63,21 @@ body {
 
 p {
     text-align: justify;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .gallery {
     text-align: center;
-    margin-top: 10px;
 }
 
 .gallery img {
     width: 30%;
-    margin: 6px;
-    border: 2px solid lightgray;
+    margin: 5px;
+    border: 1px solid gray;
 }
 
 .media {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 audio,
@@ -90,28 +87,27 @@ video {
 }
 
 .comment-form {
-    background-color: lightyellow;
-    padding: 18px;
-    margin-top: 25px;
+    background-color: lightcyan;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 .comment-form input,
 .comment-form textarea {
     width: 100%;
     margin-top: 8px;
-    padding: 7px;
+    padding: 6px;
 }
 
 .comment-form input[type="submit"],
 .comment-form input[type="reset"] {
-    width: 110px;
-    margin-top: 12px;
+    width: 100px;
+    margin-top: 10px;
 }
 
 #footer {
-    background-color: khaki;
+    background-color: lightgray;
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
 }
