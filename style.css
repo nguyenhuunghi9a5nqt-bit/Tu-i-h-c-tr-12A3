@@ -88,6 +88,12 @@ img {
     margin: 5px;
 }
 
+.gallery p {
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .gallery img {
     width: 100%;
     border: 1px solid gray;
