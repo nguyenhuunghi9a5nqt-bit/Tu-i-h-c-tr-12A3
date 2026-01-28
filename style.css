@@ -80,8 +80,9 @@ img {
 }
 
 .gallery img {
-    width: 45%;
+    width: 30%;
     margin: 5px;
+    display: inline-block;
 }
 
 .gallery p {
