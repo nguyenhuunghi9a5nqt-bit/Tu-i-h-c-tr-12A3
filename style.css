@@ -6,36 +6,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-video, audio {
-    width: 100%;
-}
-
-.container {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 10px;
-}
-body {
-    font-family: Arial, sans-serif;
     background-color: white;
-    margin: 0;
-    padding: 0;
     color: black;
     font-size: 16px;
 }
 
+/* Header */
 #header {
     background-color: lightyellow;
-    color: black;
     text-align: center;
     padding: 20px;
 }
@@ -47,13 +25,13 @@ body {
 
 #header p {
     margin-top: 8px;
-    margin-bottom: 0;
-    text-align: center;
     font-style: italic;
     font-size: 20px;
     color: brown;
+    text-align: center;
 }
 
+/* Menu */
 .navigation_menu {
     background-color: lightgray;
     text-align: center;
@@ -64,8 +42,8 @@ body {
     display: inline-block;
     text-decoration: none;
     color: black;
-    margin: 5px 8px;
-    padding: 6px 10px;
+    margin: 6px 8px;
+    padding: 8px 12px;
     font-weight: bold;
 }
 
@@ -74,6 +52,7 @@ body {
     text-decoration: underline;
 }
 
+/* Content */
 #content {
     padding: 15px;
 }
@@ -82,7 +61,7 @@ body {
     background-color: lightyellow;
     text-align: center;
     font-weight: bold;
-    padding: 12px;
+    padding: 14px;
     margin-top: 22px;
     font-size: 22px;
 }
@@ -90,6 +69,13 @@ body {
 p {
     text-align: justify;
     line-height: 1.6;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .gallery {
@@ -100,18 +86,17 @@ p {
     width: 30%;
     margin: 5px;
     border: 1px solid gray;
+    display: inline-block;
 }
 
-.media {
-    margin-top: 15px;
-}
-
+/* Media */
 audio,
 video {
     width: 100%;
     margin-top: 10px;
 }
 
+/* Comment */
 .comment-form {
     background-color: lightcyan;
     padding: 15px;
@@ -122,7 +107,7 @@ video {
 .comment-form textarea {
     width: 100%;
     margin-top: 8px;
-    padding: 6px;
+    padding: 8px;
 }
 
 .comment-form input[type="submit"],
@@ -131,6 +116,7 @@ video {
     margin-top: 10px;
 }
 
+/* Footer */
 #footer {
     background-color: lightgray;
     text-align: center;
