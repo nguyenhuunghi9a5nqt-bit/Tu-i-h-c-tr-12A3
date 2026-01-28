@@ -83,10 +83,10 @@ img {
 }
 
 .gallery img {
-    width: 30%;
-    margin: 5px;
+    width: 90%;
+    max-width: 350px;
+    margin: 10px auto;
     border: 1px solid gray;
-    display: inline-block;
 }
 
 /* Media */
