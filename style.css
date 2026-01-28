@@ -79,24 +79,14 @@ img {
 }
 
 .gallery {
-    overflow: hidden;
-}
-
-.gallery a {
-    float: left;
-    width: 30%;
-    margin: 5px;
-}
-
-.gallery p {
-    clear: both;
     text-align: center;
-    margin-top: 10px;
 }
 
 .gallery img {
-    width: 100%;
+    width: 30%;
+    margin: 5px;
     border: 1px solid gray;
+    display: inline-block;
 }
 
 /* Media */
